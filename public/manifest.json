@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "X Cleanup",
+  "short_name": "X Cleanup",
+  "version": "0.2.0",
+  "description": "Review and manage your X posts, reposts, and replies. Read-only access via the official X API.",
+  "action": {
+    "default_title": "X Cleanup",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "storage",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://api.x.com/*"
+  ]
+}
